@@ -1,12 +1,35 @@
 ...@archimate
 
-test: {
-    class: business-actor
-    child: {
-        class: business-actor
-    }
+application: {
+  application-collaboration: {
+    class: application-collaboration
+  }
+  application-component: {
+    class: application-component
+  }
+  application-event: {
+    class: application-event
+  }
+  application-function: {
+    class: application-function
+  }
+  application-interaction: {
+    class: application-interaction
+  }
+  application-interface: {
+    class: application-interface
+  }
+  application-process: {
+    class: application-process
+  }
+  application-service: {
+    class: application-service
+  }
+}
 
-    application: {
-        class: application-interface
-    }
+test: {
+  class: business-actor
+  child: {
+    class: business-actor
+  }
 }
